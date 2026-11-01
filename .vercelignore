@@ -1,0 +1,12 @@
+.git/
+node_modules/
+dist/
+.vercel/
+artifacts/
+references/
+context/
+AGENTS.md
+design-qa.md
+.DS_Store
+.env*
+*.log

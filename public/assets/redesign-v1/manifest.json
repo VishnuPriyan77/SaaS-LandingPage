@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "status": "Integrated into the studio redesign; entries retain master-image provenance.",
+  "directory": "public/assets/redesign-v1",
+  "items": [
+    {
+      "file": "approach-reveal.png",
+      "slot": "Approach reveal",
+      "source": "generated",
+      "layout": "wide",
+      "note": "Full image for expanding window; use dark overlay behind separate website text. Also reuse for complexity-to-clarity bridge.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1972399,
+      "runtimeFile": "approach-reveal.webp"
+    },
+    {
+      "file": "approach-understand.png",
+      "slot": "Understand",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Portrait foreground; its enlarged softened copy can serve as background.",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1784504,
+      "runtimeFile": "approach-understand.webp"
+    },
+    {
+      "file": "approach-shape.png",
+      "slot": "Shape",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Preserve all three story frames; prefer contain or native portrait ratio.",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1983153,
+      "runtimeFile": "approach-shape.webp"
+    },
+    {
+      "file": "approach-bring-to-life-v2.png",
+      "slot": "Bring to life",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Reviewed revision: red cube and looping animation path, not growth chart.",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1586903,
+      "runtimeFile": "approach-bring-to-life-v2.webp"
+    },
+    {
+      "file": "craft-detail.png",
+      "slot": "Craft detail",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Slim portrait crop is safe around the illuminated glass corner.",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1930909,
+      "runtimeFile": "craft-detail.webp"
+    },
+    {
+      "file": "capability-explainers.png",
+      "slot": "Explainers",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Three-scene conceptual explanation; no client association.",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1677157,
+      "runtimeFile": "capability-explainers.webp"
+    },
+    {
+      "file": "capability-product-demos.jpg",
+      "slot": "Product demos",
+      "source": "ofacto-launch.mp4 @ 45s",
+      "layout": "wide",
+      "note": "Keep native wide ratio / contain. Source UI is already cropped at bottom; no further crop or claim of complete screen.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 145996,
+      "runtimeFile": "capability-product-demos.jpg"
+    },
+    {
+      "file": "capability-launch-films.jpg",
+      "slot": "Launch films",
+      "source": "ofacto-launch.mp4 @ 22s",
+      "layout": "wide",
+      "note": "Preserve product and original film lettering; keep original teal palette.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 74895,
+      "runtimeFile": "capability-launch-films.jpg"
+    },
+    {
+      "file": "capability-promotional-videos.jpg",
+      "slot": "Promotional videos",
+      "source": "reel.mp4 @ 10.45s",
+      "layout": "wide",
+      "note": "Cursor-free self-initiated mascot frame; preserve original purple/ivory palette.",
+      "width": 1600,
+      "height": 884,
+      "bytes": 27096,
+      "runtimeFile": "capability-promotional-videos.jpg"
+    },
+    {
+      "file": "capability-script-storyboard.png",
+      "slot": "Script & storyboard",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Keep sketch panels and red pencil in frame; conceptual process artwork.",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2611309,
+      "runtimeFile": "capability-script-storyboard.webp"
+    },
+    {
+      "file": "capability-animation-sound.png",
+      "slot": "Animation & sound",
+      "source": "generated",
+      "layout": "portrait",
+      "note": "Keep whole waveform and motion path visible; use native portrait fit.",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1852915,
+      "runtimeFile": "capability-animation-sound.webp"
+    },
+    {
+      "file": "work-ofacto.jpg",
+      "slot": "Ofacto client film feature",
+      "source": "ofacto-launch.mp4 @ 22s",
+      "layout": "wide",
+      "note": "Same frame as launch capability intentionally reused later; label client film and link original movie.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 74895,
+      "runtimeFile": "work-ofacto.jpg"
+    },
+    {
+      "file": "work-personal-showcase-v2.jpg",
+      "slot": "Personal showcase feature",
+      "source": "reel.mp4 @ 10.45s",
+      "layout": "wide",
+      "note": "Reviewed replacement for weak file-card poster. Same frame as promotional capability reused later; label self-initiated, unfinished silent draft.",
+      "width": 1600,
+      "height": 884,
+      "bytes": 27096,
+      "runtimeFile": "work-personal-showcase-v2.jpg"
+    }
+  ],
+  "existing": {
+    "openingVideo": "references/forge-studio-concepts/video/opening-studio-source.mp4",
+    "closingStill": "references/forge-studio-concepts/keyframes/k03-settled-hero-v1.png",
+    "ofactoFilm": "public/assets/ofacto-launch.mp4",
+    "personalFilm": "public/assets/reel.mp4",
+    "runtimeOpeningVideo": "public/assets/redesign-v1/opening-studio.mp4"
+  }
+}

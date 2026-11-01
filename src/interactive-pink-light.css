@@ -1,0 +1,39 @@
+/* Procedural lighting only: the parent retains the existing opening scroll fade. */
+.interactive-pink-light {
+  --pink-x: 0px;
+  --pink-y: 0px;
+  --pink-angle: 0deg;
+  --pink-strength: 1;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #000;
+}
+.interactive-pink-light::before,
+.interactive-pink-light::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  opacity: var(--pink-strength);
+  transform: translate3d(var(--pink-x), var(--pink-y), 0) rotate(var(--pink-angle));
+  transform-origin: 8% 5%;
+  will-change: transform, opacity;
+}
+.interactive-pink-light::before {
+  inset: -15% -15% -15% -20%;
+  background: radial-gradient(ellipse 58% 80% at 18% 14%, #ffd1e5a3 0%, #ea7daf66 12%, #b9276d3d 30%, #720b3e17 50%, transparent 72%);
+}
+.interactive-pink-light::after {
+  left: -17%;
+  top: -35%;
+  width: 64%;
+  height: 120%;
+  background: radial-gradient(ellipse 20% 58% at 50% 35%, #ffd3e556, #e963a12b 32%, transparent 75%);
+  rotate: -34deg;
+  filter: blur(28px);
+}
+@media (prefers-reduced-motion: reduce), (hover: none) {
+  .interactive-pink-light::before,
+  .interactive-pink-light::after { will-change: auto; transform: none; }
+}
