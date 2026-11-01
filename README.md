@@ -1,5 +1,7 @@
 # Vishnu Priyan — motion portfolio
 
+Live site: [saas-landingpage-rose.vercel.app](https://saas-landingpage-rose.vercel.app/)
+
 A cinematic portfolio for an independent SaaS motion designer, built with React, TypeScript, Vite and GSAP. Includes a scroll-driven studio opening, layered approach chapters, services, selected films and an email-draft enquiry flow.
 
 ## Development
@@ -20,7 +22,7 @@ The static website is emitted into `dist/client/`. The build also preserves the 
 
 ## Vercel deployment
 
-Connect this repository to a Vercel project using the Vite framework preset. `vercel.json` sets the install command, runs the production build and tests, and selects `dist/client` as the output. No environment variables or backend service are required. Production builds use the `main` branch; other branches can receive preview deployments through Vercel's Git integration.
+This repository is connected to the `saas-landingpage` Vercel project using the Vite framework preset. `vercel.json` sets the install command, runs the production build and tests, and selects `dist/client` as the output. No environment variables or backend service are required. Production builds use the `main` branch; other branches can receive preview deployments through Vercel's Git integration.
 
 ## Accessibility and media
 

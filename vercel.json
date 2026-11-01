@@ -3,5 +3,8 @@
   "framework": "vite",
   "installCommand": "npm ci",
   "buildCommand": "npm run build && npm test",
-  "outputDirectory": "dist/client"
+  "outputDirectory": "dist/client",
+  "git": {
+    "deploymentEnabled": true
+  }
 }
