@@ -1,18 +1,13 @@
-@font-face{
-  font-family:'Instrument Serif';
-  src:url('/assets/fonts/instrument-serif-regular.ttf') format('truetype');
-  font-style:normal;
-  font-weight:400;
-  font-display:swap
-}
 /* Palette values live here;
 all component colors reference these tokens. */
 :root {
   --bg: #07090E;
   --text: #FCFFFF;
   --text-muted: rgba(252, 255, 255, 0.64);
-  --accent: #0593C6;
-  --spark: #D83995;
+  --sky: #0593C6;
+  --pink: #D83995;
+  --accent: var(--text);
+  --spark: var(--text);
   --line: rgba(252, 255, 255, 0.16);
   --on-accent: #07090E;
   --surface: color-mix(in srgb, var(--bg) 96%, var(--text));
@@ -23,7 +18,7 @@ all component colors reference these tokens. */
   --control-line: color-mix(in srgb, var(--text) 46%, transparent);
   --spark-ring: color-mix(in srgb, var(--spark) 45%, transparent);
   --showcase-surface: color-mix(in srgb, var(--text) 92%, var(--accent));
-  --serif: 'Instrument Serif', Georgia, serif;
+  --display: 'Manrope Variable', Arial, sans-serif;
   --container-max: 1560px;
   --gutter: clamp(24px, 5vw, 80px);
   font-family: 'Manrope Variable', Arial, sans-serif;
@@ -77,7 +72,7 @@ h1,h2,h3,p{
   margin:0
 }
 h1,h2,h3{
-  font-family:var(--serif);
+  font-family:var(--display);
   font-weight:400;
   letter-spacing:-.02em
 }
@@ -136,7 +131,7 @@ section[id],div[id]{
   position:absolute;
   left:50%;
   transform:translateX(-50%);
-  font-family:var(--serif);
+  font-family:var(--display);
   font-size:34px;
   line-height:.9;
   letter-spacing:-.025em;
@@ -714,7 +709,7 @@ section[id],div[id]{
   border-bottom:1px solid var(--line)
 }
 .footer-name{
-  font-family:var(--serif);
+  font-family:var(--display);
   font-size:44px;
   letter-spacing:-.02em
 }
@@ -925,7 +920,7 @@ select{
   text-align:left;
   gap:35px;
   padding:14px 0;
-  font-family:var(--serif);
+  font-family:var(--display);
   font-size:clamp(44px,5.8vw,85px);
   letter-spacing:-.02em;
   line-height:1.1;
@@ -2014,7 +2009,7 @@ a:not(.wordmark):not(.footer-name):not(.btn-primary):hover{
   background:var(--line)
 }
 .page-progress-fill{
-  background:linear-gradient(90deg,var(--accent) 0%,var(--accent) 90%,var(--spark) 100%)
+  background:var(--text)
 }
 .site-header{
   height:112px;
